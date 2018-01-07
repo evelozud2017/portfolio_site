@@ -14,27 +14,32 @@
     <div class="container">
 
       <!-- Header with logo, name and title -->
-      <header class="row">
-        <div class="col-xs-4 col-sm-4 col-md-6 header_margin_top" >
+      <header class="row hr-rule">
+        <div class="col-xs-4 col-sm-4 col-md-6 margin_top" >
           <img class="img-responsive" src="img/logo.png" alt="Eva's Portfolio">
         </div>
-        <div class="col-xs-8 col-sm-8 col-md-6 text-right text-uppercase header_margin_top">
+        <div class="col-xs-8 col-sm-8 col-md-6 text-right text-uppercase margin_top">
           <h1>Eva Coder</h1>
           <h4>Front-end Newbie</h4>
         </div>
       </header>
 
-      <!-- Border -->
-      <div class="row">
-        <div class="col-md-12">
-          <hr class="style_one">
-        </div>
-      </div>
-
       <!-- Section for Image span -->
-      <section class="row">
+      <section class="row margin_top">
         <div class="col-md-12">
-          <img src="img/code.png" class="img-responsive" alt="code screenshot">
+        <picture>
+          <source media="(max-width: 650px)" sizes="(max-width: 320px) 98vw, 95vw"
+            srcset="img/code_small.jpg 600w">
+          <source media="(max-width: 790px)" sizes="(max-width: 765px) 24vw, 23vw"
+            srcset="img/code.png 416w">
+          <source media="(max-width: 900px)" sizes="(max-width: 825px) 22vw, 20vw"
+            srcset="img/code.png 416w">
+          <source media="(max-width: 1030px)" sizes="(max-width: 1024px) 23vw, 18vw"
+            srcset="img/code.png 416w">
+          <source media="(max-width: 1440px)" sizes="(max-width: 1200px) 30vw, 23vw"
+            srcset="img/code_large.png 416w">
+          <img src="img/code_large.png" alt="code screenshot">
+        </picture>
         </div>
       </section>
 
@@ -56,6 +61,7 @@
             </a>
             <div class="caption text-center">
               <h4>Movie Trailer</h4>
+              <p>Udacity project using Python</p>
               <h5><small>https://evelozud2017.github.io/eva_movietrailer/</small></h5>
             </div>
           </div>
@@ -69,6 +75,7 @@
             </a>
             <div class="caption text-center">
               <h4>Portfolio Site</h4>
+              <p>Udacity project using HTML and CSS</p>
               <h5><small>https://github.com/evelozud2017/portfolio_site</small></h5>
             </div>
           </div>
@@ -82,6 +89,7 @@
             </a>
             <div class="caption text-center">
               <h4>Personal Blog</h4>
+              <p>I like baking and trying out healthy recipes!</p>
               <h5><small>http://myredmixingbowl.blogspot.com/</small></h5>
             </div>
           </div>

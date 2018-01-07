@@ -1,16 +1,12 @@
-
-hr.style_one {
-  height: 3px;
-  border: none;
-  color: #7d97ad;
-  background-color: #7d97ad;
+.hr-rule {
+    border-bottom: 3px solid #7d97ad;
 }
 
 .container {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #2d3c49;
 }
 
-.header_margin_top {
-  margin-top:25px;
+.margin_top {
+  margin-top: 25px;
 }
